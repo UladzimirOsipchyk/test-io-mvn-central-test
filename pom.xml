@@ -9,7 +9,7 @@
         <version>2.7.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.uoo.example</groupId>
+    <groupId>com.uoo.testio.test</groupId>
     <artifactId>TestIOMvnCentralTestApplication</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>TestIOMvnCentralTestApplication</name>
