@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github.uladzimirosipchyk</groupId>
-    <artifactId>TestIOMvnCentralTestApplication</artifactId>
+    <artifactId>com.uoo.example</artifactId>
     <version>0.0.1</version>
-    <name>TestIOMvnCentralTestApplication</name>
+    <name>Test IO Mvn Central Test Application</name>
     <description>TestIOMvnCentralTestApplication</description>
     <properties>
         <java.version>1.8</java.version>
