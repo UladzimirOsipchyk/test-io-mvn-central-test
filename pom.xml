@@ -13,7 +13,7 @@
     <artifactId>com.uoo.example</artifactId>
     <version>0.0.1</version>
     <name>Test IO Mvn Central Test Application</name>
-    <description>TestIOMvnCentralTestApplication</description>
+    <description>Test IO Mvn Central Test Application</description>
     <url>https://github.com/UladzimirOsipchyk/test-io-mvn-central-test</url>
 
     <licenses>
@@ -24,40 +24,25 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>Uladzimir Osipchyk</name>
+            <email>uooaitest@gmail.com</email>
+            <organization>uoO</organization>
+            <organizationUrl>>https://github.com/UladzimirOsipchyk</organizationUrl>
+        </developer>
+    </developers>
     <scm>
-        <url>https://github.com/UladzimirOsipchyk/test-io-mvn-central-test.git</url>
+        <connection>scm:git:git://github.com/UladzimirOsipchyk/test-io-mvn-central-test.git</connection>
+        <developerConnection>scm:git:ssh://github.com/UladzimirOsipchyk/test-io-mvn-central-test.git</developerConnection>
+        <url>https://github.com/UladzimirOsipchyk/test-io-mvn-central-test</url>
     </scm>
+
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
     <distributionManagement>
         <snapshotRepository>
@@ -113,7 +98,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
+                <version>3.0.1</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
@@ -139,5 +124,34 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>
