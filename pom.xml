@@ -11,7 +11,7 @@
     </parent>
     <groupId>io.github.uladzimirosipchyk</groupId>
     <artifactId>com.uoo.example</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>Test IO Mvn Central Test Application</name>
     <description>Test IO Mvn Central Test Application</description>
     <url>https://github.com/UladzimirOsipchyk/test-io-mvn-central-test</url>
